@@ -1,0 +1,142 @@
+/* first-part start*/
+
+.first-part
+{
+    display: flex;
+}
+
+h1{
+    font-size: 50px;;
+    font-family: 'Nanum Myeongjo', serif;
+font-family: 'Tinos', serif;
+}
+.half-whide
+{
+    width: 50%;
+    padding: 5%;
+}
+
+.half-whide img{
+    width: 85%;
+    margin: auto;
+}
+.button{
+  text-decoration: none;
+  color: #f0f8ff;
+  background-color: mediumvioletred; 
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+/* first-part end*/
+
+
+/*second-part start*/
+h2{
+    text-align: center;
+font-size: 30px;
+color: rgb(48, 47, 47)
+}
+
+.info{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    width: 330px;
+    
+    text-align: center;
+    border-radius: 5px;
+}
+
+.info img{
+    margin-top: 10px;
+}
+h4{
+font-size: 20px;
+
+}
+.ret{
+    color: rgb(238, 241, 28);
+}
+span{
+    color: grey;
+}
+
+.contener{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.link{
+    margin-left: 83%;
+    padding-top: 15px;
+    text-decoration: none;
+    color: mediumvioletred;
+}
+
+/*second-part end*/
+
+/* fotter start*/
+footer{
+    text-align: center;
+    background-color: rgb(12, 12, 49);
+    color: wheat;
+    padding: 20px 0px;
+    margin-top: 20px;
+}
+    footer h2{
+        color: #ffffff;
+    }
+.icon{ 
+    font-size: 15px;
+   
+
+}
+
+.fa-instagram{
+    background: rgba(184, 183, 183, 0.26);
+    padding: 5px;
+    border-radius: 50%;
+    margin: 0px 5px;}
+
+.fa-globe{
+background: rgba(184, 183, 183, 0.26);
+    padding: 5px;
+    border-radius: 50%;
+    margin: 0px 5px;}
+
+
+    .fa-twitter{
+    background: rgba(184, 183, 183, 0.26);
+    padding: 5px;
+    border-radius: 50%;
+    margin: 0px 5px;
+    }
+
+    .fa-youtube-play{
+    background: rgba(184, 183, 183, 0.26);
+    padding: 5px;
+    border-radius: 50%;
+    margin: 0px 5px;}
+/* fotter end*/
+
+
+/* for phon*/
+@media screen and (max-width:500px){
+    body{
+    
+    }
+    .first-part
+{
+    flex-direction:column-reverse;}
+    .half-whide
+{
+    width: 100%;
+    padding: 5%;
+}
+.contener{
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
